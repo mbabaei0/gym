@@ -8,10 +8,10 @@ import { Header } from "./components/Header";
 function App() {
   return (
     <div className="App">
-      <Header user={'aaa'} logo={'gggg'} />
+      <Header user={'Hello'} logo={'React'} />
       <Grid container spacing={2}>
         <Grid item xs={8}>
-          aa
+          Grid 8
         </Grid>
       </Grid>
     </div>
